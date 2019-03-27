@@ -3,14 +3,14 @@ sudo: false
 language: node_js
 
 node_js:
-  - node
+  - 10
 
 install:
   - npm ci
 cache:
   directories:
     - node_modules
-    
+
 script:
   - npm run eslint
   - npm run test:coveralls
