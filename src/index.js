@@ -1,2 +1,2 @@
 export * from "./mechwheel";
-export * from "./mecwheel";
+export * from "./mechwheel";

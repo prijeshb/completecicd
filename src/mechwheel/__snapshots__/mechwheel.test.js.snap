@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+>
+  <h1>
+    HEllo from mechwheel!!!
+  </h1>
+</div>
+`;
