@@ -7,7 +7,10 @@ node_js:
 
 install:
   - npm ci
-
+cache:
+  directories:
+    - node_modules
+    
 script:
   - npm run eslint
   - npm run test:coveralls
