@@ -6,7 +6,7 @@ node_js:
   - 10
 
 install:
-  - npm ci
+  - npm i
 cache:
   directories:
     - node_modules
